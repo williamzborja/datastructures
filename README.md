@@ -22,12 +22,13 @@ A common error in traditional learning, how to implement all data structures and
 
 This repository cover this datastructures
 
-1. Arrays (Vectors).
-1. Matrices.
-1. Linked List.
-1. Stack
-1. Queue
-1. Priority Queue
-1. Trees
-1. Graphs
-1. Heaps
+1. [Introduction](./introduction/README.md)
+1. [Arrays](./arrays/README.md).
+1. [String](./string/README.md)
+1. [Hashing](./hashing/README.md)
+1. [Linked List](./linked_list/README.md).
+1. [Stack](./stack//README.md)
+1. [Queue](./queue/README.md)
+1. [Trees](./trees/README.md)
+1. [Graphs](./graps/README.md)
+1. [Heaps](./heaps/README.md)
