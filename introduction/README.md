@@ -1,34 +1,49 @@
 # Introduction
 
+What are Data structures?
+
+Are different ways to sort information into computer memory for many huge
+systems the way to store information efficiently can impact directly the
+efficiency of systems.
+
+how are you can measure efficiency?
+
 ## Big O notation
 
 Is the most common way to measure algorithms **complexity** in terms of:
+
 - time(Speed)
 - space(Memory)
 
-
-Big O Notation measure how input size often represented by **n** impact the algorithms effiency in the **worse cases** and the worse input size for any algorithm is  **tending to infinity** for this reason all constant values can be ignored in Big O Notation.
+Big O Notation measure how input size often represented by **n** impact the
+algorithms efficiency in the **worse cases** and the worse input size for any
+algorithm is **tending to infinity** for this reason all constant values can be
+ignored.
 
 Example.
 
-We have 3 different algorithms that receive the same a input **n** and  each of them perform differents numbers operations/memory:
-`` 1, 900, 9999999, n/2``.
+We have 3 different algorithms that receive the same a input **n** and each of
+them perform different numbers of instructions or operations/memory:
+`1, 900, 9999999, n/2`.
 
 At the worse case **tending infinity**, What's the more efficient algorithm?
 
-Initially you could take the algorithm as a better but that only 1 * n operation but n is infinity:
+Initially you could take the algorithm with 1 instruction as a better but that
+only 1 * n operation but n is infinity:
 
-<code>infinity * 99999 = infinity</code>
+`infinity * 99999 = infinity`
 
-<code>infinity * 1 = infinity</code> 
+`infinity * 1 = infinity`
 
-<code>infinity/2 = infinity</code>
+`infinity/2 = infinity`
 
-Big O complex here is ``O(infinity)`` or ``O(n)``
+Big O complex here is `O(infinity)` or `O(n)`
 
-You could try measure efficiency of  your algorithm with a fixed input size for example 3 or 200 but we wouldn't talking about big O notation.
+You could try measure efficiency of your algorithm with a fixed input size for
+example 3 or 200 but in infinity case are irrelevant.
 
-Understand the behavior of your code in terms of time or memory in the worse case is crucial skill in interviews and coding in general.
+Understand the behavior of your code in terms of time or memory efficiency in
+the worse case is crucial skill in interviews and coding in general.
 
 ```rust
 const N: usize = 10; // size of array
@@ -48,9 +63,4 @@ fn print(nums: &[i32; N]) {
 }
 ```
 
-## Recursion
-
-
-## Programming languages
-
-
+[continue](./how_are_useful.md)
